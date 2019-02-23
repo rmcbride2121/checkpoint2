@@ -1,0 +1,45 @@
+/* Adds a red border to an element */
+
+.boxy {
+    /* border: solid 5px red; */
+}
+
+/* Main styles */
+
+body {
+    margin: auto;
+    height: 100%;
+    font-family: raleway;
+    background-color: rgb(238, 234, 236);
+}
+
+header {
+    height: 100%;
+    min-height: 300px;
+    max-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #33A8DD;
+    color: white;
+}
+
+main {
+    height: 100%;
+}
+
+/* Media queries */
+
+@media (min-width: 700px) {
+    body {
+        background-color: #1B1B1B;
+    }
+
+    header {
+        background-color: #2BCDC0;
+    }
+
+    main {
+        color: white;
+    }
+}
