@@ -1,0 +1,9 @@
+header {
+    background-color: #2BCDC0;
+}
+
+.article {
+    margin: auto;
+    max-width: 600px;
+    padding: 0 20px;
+}

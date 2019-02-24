@@ -28,6 +28,15 @@ main {
   height: 100%;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #33a8dd;
+}
+
 /* Nav Bar */
 
 .navbar {
@@ -66,8 +75,13 @@ nav a {
     background-color: #2bcdc0;
   }
 
-  main {
+  main,
+  a {
     color: white;
+  }
+
+  a:hover {
+    color: #2bcdc0;
   }
 
   .navbar {

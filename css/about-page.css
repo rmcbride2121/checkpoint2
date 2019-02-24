@@ -1,26 +1,37 @@
 main {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    max-width: 900px;
-    margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 600px;
+  margin: auto;
 }
 
 img {
-    border-radius: 50%;
+  border-radius: 50%;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
 }
 
 .grid-item {
-    padding: 20px;
+  padding: 5px;
+}
+
+iframe {
+  max-width: 420px;
+  max-height: 345px;
 }
 
 /* Media Queries */
 
-@media (max-width: 500px) {
-    main {
-        grid-template-columns: 1fr;
-    }
+@media (min-width: 700px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
+  }
 
-    .grid-item {
-        padding: 5px;
-    }
+  .grid-item {
+    padding: 20px;
+  }
 }
