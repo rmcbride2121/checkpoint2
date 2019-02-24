@@ -31,10 +31,9 @@ main {
 a {
   text-decoration: none;
   color: black;
-}
-
-a:hover {
-  color: #33a8dd;
+  :hover {
+    color: #33a8dd;
+  }
 }
 
 /* Nav Bar */
